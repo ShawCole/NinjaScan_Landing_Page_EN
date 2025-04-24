@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { CountdownTimer } from "@/components/CountdownTimer";
 import { ConsequenceCard } from "@/components/ConsequenceCard";
-import { TriangleAlert, Timer, Users, Info } from "lucide-react";
+import { TriangleAlert, Timer, Users, Info, Clock, CheckCircle, Search } from "lucide-react";
 
 const Index = () => {
   return (
@@ -111,14 +111,67 @@ const Index = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* Timeline Section */}
+      <section className="py-20 px-4 bg-black/30">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-playfair mb-12">Compliance Takes Time—Act Today</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+              <Clock className="mx-auto text-blue-500 mb-4" size={48} />
+              <h3 className="text-xl font-semibold mb-2">Audit</h3>
+              <p className="text-gray-300">2-3 months of comprehensive review</p>
+            </div>
+            <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+              <CheckCircle className="mx-auto text-green-500 mb-4" size={48} />
+              <h3 className="text-xl font-semibold mb-2">Remediation</h3>
+              <p className="text-gray-300">4-6 months of technical fixes</p>
+            </div>
+            <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+              <Search className="mx-auto text-purple-500 mb-4" size={48} />
+              <h3 className="text-xl font-semibold mb-2">Testing</h3>
+              <p className="text-gray-300">2-3 months of implementation</p>
+            </div>
+            <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+              <Info className="mx-auto text-yellow-500 mb-4" size={48} />
+              <h3 className="text-xl font-semibold mb-2">Documentation</h3>
+              <p className="text-gray-300">1-2 months of policy development</p>
+            </div>
+          </div>
+          <p className="mt-8 text-xl text-gray-300">
+            Start today to avoid the rush and extra costs of last-minute fixes!
+          </p>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 px-4 bg-black/20">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-playfair mb-12 text-center">Frequently Asked Questions</h2>
+          <div className="space-y-6">
+            <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+              <h3 className="text-xl font-semibold mb-4">Q: What happens if I ignore this?</h3>
+              <p className="text-gray-300">A: You risk major fines, legal trouble, and your website being taken offline.</p>
+            </div>
+            <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+              <h3 className="text-xl font-semibold mb-4">Q: How does Eco Web Ninja work?</h3>
+              <p className="text-gray-300">A: We scan, fix, and guide you through every step, automatically handling most of the process.</p>
+            </div>
+            <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+              <h3 className="text-xl font-semibold mb-4">Q: How do I know if I'm compliant?</h3>
+              <p className="text-gray-300">A: Run a free scan—get a clear, instant compliance report, and see your risk level.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Closing CTA Section */}
       <section className="py-20 px-4 bg-gradient-to-r from-green-600/20 to-blue-600/20">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-playfair mb-6">
             Don't Wait Until It's Too Late
           </h2>
           <p className="text-xl mb-8 text-gray-300">
-            Check your website now and get compliant before the deadline.
+            Check Your Website for Free and Get Compliant Before the Deadline.
           </p>
           <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white px-8 py-6 text-lg rounded-full">
             🔎 Start My Free Scan Now
