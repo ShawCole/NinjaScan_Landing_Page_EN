@@ -1,8 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import { CountdownTimer } from "@/components/CountdownTimer";
 import { ConsequenceCard } from "@/components/ConsequenceCard";
-import { Warning, Timer, Users, Info } from "lucide-react";
+import { TriangleAlert, Timer, Users, Info } from "lucide-react";
 
 const Index = () => {
   return (
@@ -38,7 +37,7 @@ const Index = () => {
           <h2 className="text-3xl md:text-4xl font-playfair mb-12 text-center">The Cost of Inaction</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <ConsequenceCard
-              icon={<Warning />}
+              icon={<TriangleAlert />}
               title="Substantial Fines"
               description="Non-compliance can result in fines of up to €100,000 per violation"
             />
