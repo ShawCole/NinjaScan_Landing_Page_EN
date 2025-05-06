@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { CountdownTimer } from "@/components/CountdownTimer";
 import { ConsequenceCard } from "@/components/ConsequenceCard";
@@ -96,7 +97,8 @@ const Index = () => {
       {/* Timeline Section */}
       <section className="py-20 px-4 bg-black/30">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-playfair mb-12">NinjaScan dramatically shortens your compliance timeframe saving time and money while protecting you from significant penalties</h2>
+          <h2 className="text-3xl md:text-4xl font-playfair mb-8">NinjaScan dramatically shortens your compliance timeframe saving time and money while protecting you from significant penalties</h2>
+          <p className="text-xl mb-8 text-red-400 font-medium">Without NinjaScan, you lose time and risk penalties</p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
               <Clock className="mx-auto text-blue-500 mb-4" size={48} />
