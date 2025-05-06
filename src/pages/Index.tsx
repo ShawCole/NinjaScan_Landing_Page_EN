@@ -2,10 +2,8 @@ import { Button } from "@/components/ui/button";
 import { CountdownTimer } from "@/components/CountdownTimer";
 import { ConsequenceCard } from "@/components/ConsequenceCard";
 import { TriangleAlert, Timer, Users, Info, Clock, CheckCircle, Search } from "lucide-react";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-[#1A1F2C] to-[#2C3E50] text-white">
+  return <div className="min-h-screen bg-gradient-to-b from-[#1A1F2C] to-[#2C3E50] text-white">
       {/* Sticky Warning Banner */}
       <div className="bg-red-500 text-white py-2 px-4 text-center sticky top-0 z-50">
         <p className="text-sm font-medium">🚨 Most websites aren't compliant with the new EU law</p>
@@ -36,26 +34,10 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-playfair mb-12 text-center">The Cost of Inaction</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <ConsequenceCard
-              icon={<TriangleAlert />}
-              title="Substantial Fines"
-              description="Non-compliance can result in fines of up to €100,000 per violation"
-            />
-            <ConsequenceCard
-              icon={<Timer />}
-              title="Website Shutdown"
-              description="Regulators may order your website taken offline until compliance is achieved"
-            />
-            <ConsequenceCard
-              icon={<Users />}
-              title="Lost Revenue"
-              description="Non-compliant products or services can be banned from the market"
-            />
-            <ConsequenceCard
-              icon={<Info />}
-              title="Legal Costs"
-              description="Defending against regulatory action is expensive and time-consuming"
-            />
+            <ConsequenceCard icon={<TriangleAlert />} title="Substantial Fines" description="Non-compliance can result in fines of up to €100,000 per violation" />
+            <ConsequenceCard icon={<Timer />} title="Website Shutdown" description="Regulators may order your website taken offline until compliance is achieved" />
+            <ConsequenceCard icon={<Users />} title="Lost Revenue" description="Non-compliant products or services can be banned from the market" />
+            <ConsequenceCard icon={<Info />} title="Legal Costs" description="Defending against regulatory action is expensive and time-consuming" />
           </div>
         </div>
       </section>
@@ -76,11 +58,11 @@ const Index = () => {
       {/* Solution Section */}
       <section className="py-20 px-4 bg-gradient-to-r from-green-600/20 to-blue-600/20">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-playfair mb-12 text-center">Meet Eco Web Ninja: Effortless, Affordable Compliance</h2>
+          <h2 className="text-3xl md:text-4xl font-playfair mb-12 text-center">Meet Eco Web Ninja: Effortless, Affordable 100% Compliance</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
               <h3 className="text-xl font-semibold mb-4">Full EAA & WCAG 2.1 AA Audit</h3>
-              <p className="text-gray-300">Checks your website against every major guideline.</p>
+              <p className="text-gray-300">Checks your website against every major guideline. </p>
             </div>
             <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
               <h3 className="text-xl font-semibold mb-4">Instant Automated Fixes</h3>
@@ -92,15 +74,15 @@ const Index = () => {
             </div>
             <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
               <h3 className="text-xl font-semibold mb-4">Affordable</h3>
-              <p className="text-gray-300">Starting at just $24.99/month—much less than hiring a consultant or defending against a lawsuit.</p>
+              <p className="text-gray-300">Starting at just €39/month—much less than hiring a consultant or defending against a lawsuit.</p>
             </div>
             <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
-              <h3 className="text-xl font-semibold mb-4">Proven Results</h3>
-              <p className="text-gray-300">Trusted by leading businesses across Europe.</p>
+              <h3 className="text-xl font-semibold mb-4">It Pays For Itself</h3>
+              <p className="text-slate-50">NinjaScan also more than pays for itself with reduced energy costs and improved SEO. </p>
             </div>
             <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
               <h3 className="text-xl font-semibold mb-4">Free Scan</h3>
-              <p className="text-gray-300">Know where you stand and fix issues before it's too late.</p>
+              <p className="text-gray-300">NinjaScan provides a mandatory Accessibility Report for you to post on your website absolutely FREE. NinjaScan also includes a complementary Accessibility Widget.</p>
             </div>
           </div>
           <div className="text-center mt-12">
@@ -178,8 +160,6 @@ const Index = () => {
           </Button>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
