@@ -96,7 +96,7 @@ const Index = () => {
       {/* Timeline Section */}
       <section className="py-20 px-4 bg-black/30">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-playfair mb-12">Compliance Takes Time—Act Today</h2>
+          <h2 className="text-3xl md:text-4xl font-playfair mb-12">NinjaScan dramatically shortens your compliance timeframe saving time and money while protecting you from significant penalties</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
               <Clock className="mx-auto text-blue-500 mb-4" size={48} />
@@ -119,9 +119,7 @@ const Index = () => {
               <p className="text-gray-300">1-2 months of policy development</p>
             </div>
           </div>
-          <p className="mt-8 text-xl text-gray-300">
-            Start today to avoid the rush and extra costs of last-minute fixes!
-          </p>
+          <p className="mt-8 text-xl text-red-500">Start today to avoid the rush and extra costs of last-minute fixes!</p>
         </div>
       </section>
 
