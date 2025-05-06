@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { CountdownTimer } from "@/components/CountdownTimer";
 import { ConsequenceCard } from "@/components/ConsequenceCard";
@@ -121,7 +120,7 @@ const Index = () => {
               <p className="text-gray-300">1-2 months of policy development</p>
             </div>
           </div>
-          <p className="mt-8 text-xl text-red-500">Start today to avoid the rush and extra costs of last-minute fixes!</p>
+          <p className="mt-8 text-xl text-slate-50">Start today to avoid the rush and extra costs of last-minute fixes!</p>
         </div>
       </section>
 
