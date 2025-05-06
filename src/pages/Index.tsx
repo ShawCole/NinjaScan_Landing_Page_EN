@@ -1,7 +1,9 @@
+
 import { Button } from "@/components/ui/button";
 import { CountdownTimer } from "@/components/CountdownTimer";
 import { ConsequenceCard } from "@/components/ConsequenceCard";
 import { TriangleAlert, Timer, Users, Info, Clock, CheckCircle, Search } from "lucide-react";
+
 const Index = () => {
   return <div className="min-h-screen bg-gradient-to-b from-[#1A1F2C] to-[#2C3E50] text-white">
       {/* Sticky Warning Banner */}
@@ -21,6 +23,7 @@ const Index = () => {
           <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white px-8 py-6 text-lg rounded-full animate-pulse">
             🔎 Check Your Website for Free Now
           </Button>
+          <p className="mt-3 text-sm text-gray-400">No required to check your compliance</p>
 
           <div className="mt-16">
             <p className="text-xl mb-4">Time Remaining Until Deadline:</p>
