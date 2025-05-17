@@ -4,12 +4,35 @@ import { ConsequenceCard } from "@/components/ConsequenceCard";
 import { TriangleAlert, Timer, Users, Info, Clock, CheckCircle, Search } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { PricingToggle } from "@/components/PricingToggle";
 import { calculateTimeUntilDeadline, DEADLINE_DATE } from "@/utils/dateUtils";
 import { useTranslation } from "react-i18next";
+import { useState } from "react";
+import { getPrice } from "@/constants/pricing";
 
 const Index = () => {
   const timeUntilDeadline = calculateTimeUntilDeadline();
   const { t } = useTranslation();
+  const [isYearly, setIsYearly] = useState(true);
+
+  const renderPricing = (plan: 'pro' | 'proPlus' | 'ultimate') => {
+    const actualPrice = getPrice(plan, isYearly);
+    const mockPrice = getPrice(plan, isYearly, true);
+    const periodKey = isYearly ? 'year' : 'month';
+
+    return (
+      <div className="w-max mx-auto text-center space-y-1">
+        <p className="text-2xl text-gray-500 text-center">
+          <span className="line-through">{mockPrice}</span>
+          <span className="text-base">{" "}{t(`pricing.period.${periodKey}`)}</span>
+        </p>
+        <p className="text-3xl font-bold text-[#624BFF]">
+          {actualPrice}
+          <span className="text-base font-normal text-gray-500 dark:text-gray-400">{" "}{t(`pricing.period.${periodKey}`)}</span>
+        </p>
+      </div>
+    );
+  };
 
   return <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-[#1A1F2C] dark:to-[#2C3E50] text-gray-900 dark:text-white">
     {/* Sticky Warning Banner */}
@@ -155,9 +178,9 @@ const Index = () => {
     {/* Pricing Section */}
     <section role="region" id="license" aria-labelledby="pricing-heading" className="py-16 px-4 md:px-12 lg:px-12 xl:px-24 bg-white/50 dark:bg-[#1A1F2C]">
       <div className="text-center pb-10">
-        <h2 id="pricing-heading" className="text-3xl font-bold text-[#624BFF] mb-4">{t('pricing.title')}</h2>
+        <h2 id="pricing-heading" className="text-3xl font-bold text-gray-900 dark:text-white mb-4">{t('pricing.title')}</h2>
         <hr className="border border-[#624BFF] w-60 mx-auto mb-4" />
-        <p className="text-lg text-gray-600 dark:text-gray-300"><strong>{t('pricing.subtitle')}</strong></p>
+        <PricingToggle isYearly={isYearly} onToggle={setIsYearly} />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
@@ -167,14 +190,7 @@ const Index = () => {
             <i className="fa-solid fa-rocket text-3xl text-[#624BFF] mb-4"></i>
             <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{t('pricing.plans.pro.name')}</h3>
             <p className="text-gray-600 dark:text-gray-400 mb-6">{t('pricing.plans.pro.description')}</p>
-            <div className="w-max mx-auto text-center space-y-1">
-              <p className="text-2xl text-gray-500 text-center">
-                <span className="line-through">{t('pricing.plans.pro.originalPrice')}</span> <span className="text-base">{t('pricing.plans.pro.period')}</span>
-              </p>
-              <p className="text-3xl font-bold text-[#624BFF]">
-                {t('pricing.plans.pro.price')} <span className="text-base font-normal text-gray-500 dark:text-gray-400">{t('pricing.plans.pro.period')}</span>
-              </p>
-            </div>
+            {renderPricing('pro')}
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">{t('pricing.plans.pro.limit')}</p>
           </div>
           <div className="mt-8 flex justify-center">
@@ -198,14 +214,7 @@ const Index = () => {
             <i className="fa-solid fa-shuttle-space text-3xl text-[#624BFF] mb-4"></i>
             <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{t('pricing.plans.proPlus.name')}</h3>
             <p className="text-gray-600 dark:text-gray-400 mb-6">{t('pricing.plans.proPlus.description')}</p>
-            <div className="w-max mx-auto text-center space-y-1">
-              <p className="text-2xl text-gray-500 text-center">
-                <span className="line-through">{t('pricing.plans.proPlus.originalPrice')}</span> <span className="text-base">{t('pricing.plans.proPlus.period')}</span>
-              </p>
-              <p className="text-3xl font-bold text-[#624BFF]">
-                {t('pricing.plans.proPlus.price')} <span className="text-base font-normal text-gray-500 dark:text-gray-400">{t('pricing.plans.proPlus.period')}</span>
-              </p>
-            </div>
+            {renderPricing('proPlus')}
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">{t('pricing.plans.proPlus.limit')}</p>
           </div>
           <div className="mt-8 flex justify-center">
@@ -226,14 +235,7 @@ const Index = () => {
             <i className="fa-solid fa-shuttle-space text-3xl text-[#624BFF] mb-4"></i>
             <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{t('pricing.plans.ultimate.name')}</h3>
             <p className="text-gray-600 dark:text-gray-400 mb-6">{t('pricing.plans.ultimate.description')}</p>
-            <div className="w-max mx-auto text-center space-y-1">
-              <p className="text-2xl text-gray-500 text-center">
-                <span className="line-through">{t('pricing.plans.ultimate.originalPrice')}</span> <span className="text-base">{t('pricing.plans.ultimate.period')}</span>
-              </p>
-              <p className="text-3xl font-bold text-[#624BFF]">
-                {t('pricing.plans.ultimate.price')} <span className="text-base font-normal text-gray-500 dark:text-gray-400">{t('pricing.plans.ultimate.period')}</span>
-              </p>
-            </div>
+            {renderPricing('ultimate')}
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">{t('pricing.plans.ultimate.limit')}</p>
           </div>
           <div className="mt-8 flex justify-center">

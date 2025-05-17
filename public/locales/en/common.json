@@ -101,15 +101,21 @@
         "conclusion": "Start today to avoid the rush and extra costs of last-minute fixes!"
     },
     "pricing": {
-        "title": "Choose Your Plan",
-        "subtitle": "Transparent annual pricing. No surprises.",
+        "title": "Transparent pricing. No surprises.",
+        "subtitle": "Simple pricing for everyone",
+        "toggle": {
+            "yearly": "Annually",
+            "monthly": "Monthly",
+            "discount": "-15%"
+        },
+        "period": {
+            "month": "/month",
+            "year": "/year"
+        },
         "plans": {
             "pro": {
                 "name": "Pro",
                 "description": "Basic compliance for small businesses",
-                "originalPrice": "€699",
-                "price": "€490",
-                "period": "/ year",
                 "limit": "Up to 75,000 visits / month",
                 "cta": "Buy Now"
             },
@@ -117,18 +123,12 @@
                 "tag": "Most Popular",
                 "name": "Pro Plus",
                 "description": "Advanced compliance for mid-sized companies",
-                "originalPrice": "€1,699",
-                "price": "€990",
-                "period": "/ year",
                 "limit": "Up to 150,000 visits / month",
                 "cta": "Buy Now"
             },
             "ultimate": {
                 "name": "Ultimate",
                 "description": "Full compliance for large organizations",
-                "originalPrice": "€3,599",
-                "price": "€1,990",
-                "period": "/ year",
                 "limit": "Up to 500,000 visits / month",
                 "cta": "Buy Now"
             },

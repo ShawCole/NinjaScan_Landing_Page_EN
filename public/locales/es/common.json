@@ -101,15 +101,21 @@
         "conclusion": "¡Empiece hoy para evitar la prisa y los costes adicionales de las correcciones de último minuto!"
     },
     "pricing": {
-        "title": "Elija su Plan",
-        "subtitle": "Precios anuales transparentes. Sin sorpresas.",
+        "title": "Precios transparentes. Sin sorpresas.",
+        "subtitle": "Precios simples para todos",
+        "toggle": {
+            "yearly": "Anual",
+            "monthly": "Mensual",
+            "discount": "-15%"
+        },
+        "period": {
+            "month": "/mes",
+            "year": "/año"
+        },
         "plans": {
             "pro": {
                 "name": "Pro",
                 "description": "Cumplimiento básico para pequeñas empresas",
-                "originalPrice": "€699",
-                "price": "€490",
-                "period": "/ año",
                 "limit": "Hasta 75,000 visitas / mes",
                 "cta": "Comprar ahora"
             },
@@ -117,25 +123,19 @@
                 "tag": "Más Popular",
                 "name": "Pro Plus",
                 "description": "Cumplimiento avanzado para empresas medianas",
-                "originalPrice": "€1,699",
-                "price": "€990",
-                "period": "/ año",
                 "limit": "Hasta 150,000 visitas / mes",
                 "cta": "Comprar ahora"
             },
             "ultimate": {
                 "name": "Ultimate",
                 "description": "Cumplimiento total para grandes organizaciones",
-                "originalPrice": "€3,599",
-                "price": "€1,990",
-                "period": "/ año",
                 "limit": "Hasta 500,000 visitas / mes",
                 "cta": "Comprar ahora"
             },
             "enterprise": {
                 "name": "Enterprise",
                 "description": "Solución personalizada para alto tráfico",
-                "price": "Precio Personalizado",
+                "price": "Personalizado",
                 "limit": "Más de 500,000 visitas / mes",
                 "cta": "Contactar Ventas"
             }
