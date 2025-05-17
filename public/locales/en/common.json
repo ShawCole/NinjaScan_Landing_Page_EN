@@ -1,0 +1,129 @@
+{
+    "meta": {
+        "title": "NinjaScan - EAA Compliance Solution",
+        "description": "Ensure your website complies with the European Accessibility Act"
+    },
+    "banner": {
+        "warning": "🚨 Most websites aren't compliant with the new EU law"
+    },
+    "hero": {
+        "title": "You could be fined up to €100,000 if you aren't compliant",
+        "subtitle": "In [COUNTRY], companies with over [EMPLOYEE_THRESHOLD] employees and more than [€TURNOVER] in annual turnover are subject to these fines under the European Accessibility Act.",
+        "cta": "🔎 Check Your Website for Free Now",
+        "disclaimer": "No payment required to check your compliance",
+        "countdown": {
+            "title": "Time Remaining Until Deadline:"
+        }
+    },
+    "consequences": {
+        "title": "The Cost of Inaction",
+        "cards": {
+            "fines": {
+                "title": "Substantial Fines",
+                "description": "Non-compliance can result in fines of up to €100,000 per violation"
+            },
+            "shutdown": {
+                "title": "Website Shutdown",
+                "description": "Regulators may order your website taken offline until compliance is achieved"
+            },
+            "revenue": {
+                "title": "Lost Revenue",
+                "description": "Non-compliant products or services can be banned from the market"
+            },
+            "legal": {
+                "title": "Legal Costs",
+                "description": "Defending against regulatory action is expensive and time-consuming"
+            }
+        }
+    },
+    "urgency": {
+        "title": "Only {days} Days Left Until the {deadline} Deadline",
+        "description": "Most companies will not be ready. Over 95% of websites currently fail the EAA audit—don't risk waiting until you're in the crosshairs.",
+        "cta": "🚨 Avoid Risks Now"
+    },
+    "solution": {
+        "title": "Meet Eco Web Ninja: Effortless, Affordable 100% Compliance",
+        "features": {
+            "audit": {
+                "title": "Full EAA & WCAG 2.1 AA Audit",
+                "description": "Checks your website against every major guideline."
+            },
+            "fixes": {
+                "title": "Instant Automated Fixes",
+                "description": "Fixes most compliance issues in minutes—no tech skills needed."
+            },
+            "guidance": {
+                "title": "Clear, Easy Guidance",
+                "description": "For anything needing manual attention, you'll get step-by-step, plain-language instructions."
+            },
+            "affordable": {
+                "title": "Affordable",
+                "description": "Starting at just €39/month—much less than hiring a consultant or defending against a lawsuit."
+            },
+            "roi": {
+                "title": "It Pays For Itself",
+                "description": "NinjaScan also more than pays for itself with reduced energy costs and improved SEO."
+            },
+            "free": {
+                "title": "Free Scan",
+                "description": "NinjaScan provides a mandatory Accessibility Report for you to post on your website absolutely FREE. NinjaScan also includes a complementary Accessibility Widget."
+            }
+        },
+        "cta": "🔎 Scan My Website Free"
+    },
+    "timeline": {
+        "title": "NinjaScan dramatically shortens your compliance timeframe saving time and money while protecting you from significant penalties",
+        "subtitle": "Without NinjaScan, you lose time and risk penalties",
+        "steps": {
+            "audit": {
+                "title": "Audit",
+                "description": "2-3 months of comprehensive review"
+            },
+            "remediation": {
+                "title": "Remediation",
+                "description": "4-6 months of technical fixes"
+            },
+            "testing": {
+                "title": "Testing",
+                "description": "2-3 months of implementation"
+            },
+            "documentation": {
+                "title": "Documentation",
+                "description": "1-2 months of policy development"
+            }
+        },
+        "conclusion": "Start today to avoid the rush and extra costs of last-minute fixes!"
+    },
+    "pricing": {
+        "title": "Choose Your Plan",
+        "subtitle": "Transparent annual pricing. No surprises.",
+        "plans": {
+            "pro": {
+                "name": "Pro",
+                "description": "Basic compliance for small businesses",
+                "originalPrice": "€699",
+                "price": "€490",
+                "period": "/ year",
+                "limit": "Up to 75,000 visits / month",
+                "cta": "Buy Now"
+            },
+            "proPlus": {
+                "tag": "Most Popular",
+                "name": "Pro Plus",
+                "description": "Advanced compliance for mid-sized companies",
+                "originalPrice": "€1,699",
+                "price": "€990",
+                "period": "/ year",
+                "limit": "Up to 150,000 visits / month",
+                "cta": "Buy Now"
+            }
+        },
+        "features": {
+            "report": "✓ A detailed technical Accessibility Report",
+            "widget": "✓ Integrable accessibility widget",
+            "generator": "✓ Accessibility Statement generator",
+            "compliance": "✓ Full compliance with all legal accessibility standards",
+            "eco": "✓ Eco Scanner reduces your carbon footprint"
+        }
+    }
+}
