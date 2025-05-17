@@ -7,12 +7,12 @@
         "warning": "🚨 La plupart des sites Web ne sont pas conformes à la nouvelle loi de l'UE"
     },
     "hero": {
-        "title": "Vous pourriez être sanctionné jusqu'à €100.000 si vous n'êtes pas conforme",
-        "subtitle": "En [COUNTRY], les entreprises comptant plus de [EMPLOYEE_THRESHOLD] employés et générant un chiffre d'affaires annuel supérieur à [€TURNOVER] sont soumises à ces sanctions en vertu de la loi européenne sur l'accessibilité.",
+        "title": "Vous risquez une amende jusqu'à 100 000 € en cas de non-conformité",
+        "subtitle": "En France, les entreprises de plus de 10 employés et dont le chiffre d'affaires annuel dépasse 2 millions d'euros sont soumises à ces sanctions selon la loi européenne sur l'accessibilité.",
         "cta": "🔎 Vérifiez votre site gratuitement maintenant",
         "disclaimer": "Aucun paiement requis pour vérifier votre conformité",
         "countdown": {
-            "title": "Temps restant avant la date limite :",
+            "title": "Temps restant jusqu'à l'échéance :",
             "units": {
                 "days": "Jours",
                 "hours": "Heures",

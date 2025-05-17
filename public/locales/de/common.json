@@ -8,7 +8,7 @@
     },
     "hero": {
         "title": "Bei Nicht-Einhaltung drohen Bußgelder von bis zu €100.000",
-        "subtitle": "In [COUNTRY] unterliegen Unternehmen mit mehr als [EMPLOYEE_THRESHOLD] Mitarbeitenden und einem Jahresumsatz über [€TURNOVER] diesen Strafen gemäß dem Europäischen Barrierefreiheitsgesetz.",
+        "subtitle": "In Deutschland unterliegen Unternehmen mit mehr als 10 Mitarbeitenden und einem Jahresumsatz über € 2 Millionen diesen Strafen gemäß dem Europäischen Barrierefreiheitsgesetz.",
         "cta": "🔎 Jetzt Website kostenlos prüfen",
         "disclaimer": "Keine Zahlung erforderlich, um Ihre Konformität zu prüfen",
         "countdown": {

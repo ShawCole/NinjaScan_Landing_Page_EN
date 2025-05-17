@@ -1,16 +1,16 @@
 {
     "meta": {
         "title": "NinjaScan - Solución de Cumplimiento EAA",
-        "description": "Asegure que su sitio web cumpla con la Ley de Accesibilidad Europea"
+        "description": "Asegúrese de que su sitio web cumple con la Ley Europea de Accesibilidad"
     },
     "banner": {
         "warning": "🚨 La mayoría de los sitios web no cumplen con la nueva ley de la UE"
     },
     "hero": {
-        "title": "Podría recibir una multa de hasta €100,000 si no cumple con la normativa",
-        "subtitle": "En [COUNTRY], las empresas con más de [EMPLOYEE_THRESHOLD] empleados y más de [€TURNOVER] en facturación anual están sujetas a estas multas según la Ley de Accesibilidad Europea.",
-        "cta": "🔎 Revise su sitio web gratis ahora",
-        "disclaimer": "No se requiere pago para comprobar su cumplimiento",
+        "title": "Podría recibir multas de hasta 100.000 € si no cumple",
+        "subtitle": "En España, las empresas con más de 10 empleados y una facturación anual superior a 2 millones de euros están sujetas a estas sanciones según la Ley Europea de Accesibilidad.",
+        "cta": "🔎 Compruebe su sitio gratis ahora",
+        "disclaimer": "No se requiere pago para verificar su cumplimiento",
         "countdown": {
             "title": "Tiempo restante hasta la fecha límite:",
             "units": {
@@ -22,64 +22,64 @@
         }
     },
     "consequences": {
-        "title": "El Costo de la Inacción",
+        "title": "El Coste de la Inacción",
         "cards": {
             "fines": {
-                "title": "Multas Considerables",
-                "description": "El incumplimiento puede resultar en multas de hasta €100,000 por infracción"
+                "title": "Multas Sustanciales",
+                "description": "El incumplimiento puede resultar en multas de hasta 100.000 € por infracción"
             },
             "shutdown": {
                 "title": "Cierre del Sitio Web",
-                "description": "Las autoridades pueden ordenar que su sitio web se desconecte hasta que cumpla con la normativa"
+                "description": "Los reguladores pueden ordenar que su sitio web se desconecte hasta que cumpla"
             },
             "revenue": {
                 "title": "Pérdida de Ingresos",
-                "description": "Los productos o servicios que no cumplan pueden ser retirados del mercado"
+                "description": "Los productos o servicios no conformes pueden ser prohibidos en el mercado"
             },
             "legal": {
                 "title": "Costes Legales",
-                "description": "Defenderse de acciones regulatorias es costoso y lleva mucho tiempo"
+                "description": "Defenderse contra acciones regulatorias es costoso y requiere mucho tiempo"
             }
         }
     },
     "urgency": {
         "title": "Solo quedan {{days}} días hasta la fecha límite del {{deadline}}",
-        "description": "La mayoría de las empresas no estarán listas. Más del 95% de los sitios web actualmente fallan la auditoría EAA—no se arriesgue a esperar hasta estar en la mira.",
-        "cta": "🚨 Evite riesgos ahora"
+        "description": "La mayoría de las empresas no estarán preparadas. Más del 95% de los sitios web actualmente no pasan la auditoría EAA: no espere hasta estar en el punto de mira.",
+        "cta": "🚨 Evite Riesgos Ahora"
     },
     "solution": {
-        "title": "Conozca Eco Web Ninja: Cumplimiento Total sin Esfuerzo y Asequible",
+        "title": "Conozca Eco Web Ninja: Cumplimiento 100% Sin Esfuerzo y Asequible",
         "features": {
             "audit": {
                 "title": "Auditoría Completa EAA y WCAG 2.1 AA",
-                "description": "Revisa su sitio web frente a todas las pautas principales."
+                "description": "Verifica su sitio web contra todas las pautas principales."
             },
             "fixes": {
-                "title": "Soluciones Automáticas al Instante",
-                "description": "Corrige la mayoría de los problemas de cumplimiento en minutos—no se requieren conocimientos técnicos."
+                "title": "Correcciones Automáticas Instantáneas",
+                "description": "Soluciona la mayoría de los problemas de cumplimiento en minutos, sin necesidad de conocimientos técnicos."
             },
             "guidance": {
                 "title": "Guía Clara y Sencilla",
-                "description": "Para todo lo que requiera atención manual, recibirá instrucciones paso a paso en un lenguaje sencillo."
+                "description": "Para todo lo que necesite atención manual, recibirá instrucciones paso a paso en lenguaje sencillo."
             },
             "affordable": {
                 "title": "Asequible",
-                "description": "Desde solo €39/mes—mucho menos que contratar a un consultor o defenderse legalmente."
+                "description": "Desde solo 39 €/mes, mucho menos que contratar un consultor o defenderse de una demanda."
             },
             "roi": {
                 "title": "Se Paga Solo",
-                "description": "NinjaScan también se paga solo gracias a la reducción de costos energéticos y la mejora del SEO."
+                "description": "NinjaScan también se amortiza con costes energéticos reducidos y mejor SEO."
             },
             "free": {
                 "title": "Escaneo Gratuito",
-                "description": "NinjaScan proporciona un Informe de Accesibilidad obligatorio para que lo publique en su sitio web TOTALMENTE GRATIS. NinjaScan también incluye un Widget de Accesibilidad complementario."
+                "description": "NinjaScan proporciona un Informe de Accesibilidad obligatorio para publicar en su sitio web totalmente GRATIS. También incluye un Widget de Accesibilidad complementario."
             }
         },
-        "cta": "🔎 Escanear mi sitio gratis"
+        "cta": "🔎 Escanear Mi Sitio Gratis"
     },
     "timeline": {
-        "title": "NinjaScan acorta drásticamente su tiempo de cumplimiento, ahorrando tiempo y dinero mientras le protege de sanciones importantes",
-        "subtitle": "Sin NinjaScan, pierde tiempo y corre riesgos de sanciones",
+        "title": "NinjaScan reduce drásticamente su tiempo de cumplimiento, ahorrando tiempo y dinero mientras le protege de sanciones significativas",
+        "subtitle": "Sin NinjaScan, pierde tiempo y arriesga sanciones",
         "steps": {
             "audit": {
                 "title": "Auditoría",
@@ -95,10 +95,10 @@
             },
             "documentation": {
                 "title": "Documentación",
-                "description": "1-2 meses de elaboración de políticas"
+                "description": "1-2 meses de desarrollo de políticas"
             }
         },
-        "conclusion": "¡Empiece hoy para evitar la prisa y los costes adicionales de las correcciones de último minuto!"
+        "conclusion": "¡Empiece hoy para evitar las prisas y costes extra de las correcciones de última hora!"
     },
     "pricing": {
         "title": "Precios transparentes. Sin sorpresas.",
@@ -116,35 +116,35 @@
             "pro": {
                 "name": "Pro",
                 "description": "Cumplimiento básico para pequeñas empresas",
-                "limit": "Hasta 75,000 visitas / mes",
-                "cta": "Comprar ahora"
+                "limit": "Hasta 75.000 visitas/mes",
+                "cta": "Comprar Ahora"
             },
             "proPlus": {
                 "tag": "Más Popular",
                 "name": "Pro Plus",
                 "description": "Cumplimiento avanzado para empresas medianas",
-                "limit": "Hasta 150,000 visitas / mes",
-                "cta": "Comprar ahora"
+                "limit": "Hasta 150.000 visitas/mes",
+                "cta": "Comprar Ahora"
             },
             "ultimate": {
                 "name": "Ultimate",
-                "description": "Cumplimiento total para grandes organizaciones",
-                "limit": "Hasta 500,000 visitas / mes",
-                "cta": "Comprar ahora"
+                "description": "Cumplimiento completo para grandes organizaciones",
+                "limit": "Hasta 500.000 visitas/mes",
+                "cta": "Comprar Ahora"
             },
             "enterprise": {
                 "name": "Enterprise",
                 "description": "Solución personalizada para alto tráfico",
-                "price": "Personalizado",
-                "limit": "Más de 500,000 visitas / mes",
+                "price": "Precio Personalizado",
+                "limit": "Más de 500.000 visitas/mes",
                 "cta": "Contactar Ventas"
             }
         },
         "features": {
-            "report": "✓ Informe técnico de accesibilidad detallado",
+            "report": "✓ Informe técnico detallado de accesibilidad",
             "widget": "✓ Widget de accesibilidad integrable",
-            "generator": "✓ Generador de Declaraciones de Accesibilidad",
-            "compliance": "✓ Cumplimiento total con todas las normas legales de accesibilidad",
+            "generator": "✓ Generador de declaraciones de accesibilidad",
+            "compliance": "✓ Cumplimiento total con todos los estándares legales de accesibilidad",
             "eco": "✓ Eco Scanner reduce su huella de carbono"
         }
     },
@@ -152,22 +152,22 @@
         "title": "Preguntas Frecuentes",
         "questions": {
             "ignore": {
-                "question": "P: ¿Qué pasa si ignoro esto?",
+                "question": "P: ¿Qué pasa si lo ignoro?",
                 "answer": "R: Se arriesga a multas importantes, problemas legales y que su sitio web sea desconectado."
             },
             "howItWorks": {
                 "question": "P: ¿Cómo funciona Eco Web Ninja?",
-                "answer": "R: Escaneamos, corregimos y le guiamos en cada paso, manejando automáticamente la mayoría del proceso."
+                "answer": "R: Escaneamos, corregimos y le guiamos en cada paso, manejando automáticamente la mayor parte del proceso."
             },
             "compliance": {
-                "question": "P: ¿Cómo sé si cumplo con la normativa?",
-                "answer": "R: Ejecute un escaneo gratuito—obtenga un informe de cumplimiento claro e instantáneo, y vea su nivel de riesgo."
+                "question": "P: ¿Cómo sé si cumplo?",
+                "answer": "R: Ejecute un escaneo gratuito: obtenga un informe de cumplimiento claro e instantáneo y vea su nivel de riesgo."
             }
         }
     },
     "closingCta": {
         "title": "No Espere Hasta Que Sea Demasiado Tarde",
-        "description": "Revise Su Sitio Web Gratis y Cumpla con la Normativa Antes de la Fecha Límite.",
-        "cta": "🔎 Comenzar Escaneo Gratuito"
+        "description": "Compruebe su sitio web gratis y cumpla antes de la fecha límite.",
+        "cta": "🔎 Iniciar Escaneo Gratuito"
     }
 }
