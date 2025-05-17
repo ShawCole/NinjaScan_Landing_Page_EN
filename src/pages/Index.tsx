@@ -3,36 +3,39 @@ import { CountdownTimer } from "@/components/CountdownTimer";
 import { ConsequenceCard } from "@/components/ConsequenceCard";
 import { TriangleAlert, Timer, Users, Info, Clock, CheckCircle, Search } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { calculateTimeUntilDeadline, DEADLINE_DATE } from "@/utils/dateUtils";
+import { useTranslation } from "react-i18next";
 
 const Index = () => {
   const timeUntilDeadline = calculateTimeUntilDeadline();
+  const { t } = useTranslation();
 
   return <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-[#1A1F2C] dark:to-[#2C3E50] text-gray-900 dark:text-white">
     {/* Sticky Warning Banner */}
     <div className="bg-red-500 text-white py-3 px-6 text-center sticky top-0 z-50">
-      <p className="text-base md:text-lg font-semibold">🚨 Most websites aren't compliant with the new EU law</p>
+      <p className="text-base md:text-lg font-semibold">{t('banner.warning')}</p>
     </div>
 
     {/* Hero Section */}
     <section className="relative pt-20 pb-16 px-4">
       <div className="max-w-6xl mx-auto text-center">
         <h1 className="text-4xl md:text-6xl font-playfair mb-6">
-          You could be fined up to <span className="text-red-600 dark:text-red-500">€100,000</span> if you aren't compliant
+          {t('hero.title')}
         </h1>
         <p className="text-xl mb-8 text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
-          In [COUNTRY], companies with over [EMPLOYEE_THRESHOLD] employees and more than [€TURNOVER] in annual turnover are subject to these fines under the European Accessibility Act.
+          {t('hero.subtitle')}
         </p>
         <Button
           size="lg"
           className="bg-green-500 hover:bg-green-600 text-white px-12 py-8 text-2xl rounded-full shadow-lg hover:shadow-xl transition-all duration-200 font-semibold"
         >
-          🔎 Check Your Website for Free Now
+          {t('hero.cta')}
         </Button>
-        <p className="mt-3 text-sm text-gray-700 dark:text-gray-400">No payment required to check your compliance</p>
+        <p className="mt-3 text-sm text-gray-700 dark:text-gray-400">{t('hero.disclaimer')}</p>
 
         <div className="mt-16">
-          <p className="text-2xl md:text-3xl mb-8 text-gray-800 dark:text-white">Time Remaining Until Deadline:</p>
+          <p className="text-2xl md:text-3xl mb-8 text-gray-800 dark:text-white">{t('hero.countdown.title')}</p>
           <CountdownTimer />
         </div>
       </div>
@@ -358,6 +361,7 @@ const Index = () => {
     </section>
 
     <ThemeToggle />
+    <LanguageSwitcher />
   </div>;
 };
 
