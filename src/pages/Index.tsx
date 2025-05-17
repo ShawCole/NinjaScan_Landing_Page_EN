@@ -153,7 +153,7 @@ const Index = () => {
     </section>
 
     {/* Timeline Section */}
-    <section className="py-20 px-4 bg-gradient-to-br from-slate-50 to-gray-100 dark:from-[#111b27] dark:to-[#1a2436]">
+    <section className="pt-20 pb-12 px-4 bg-gradient-to-br from-slate-50 to-gray-100 dark:from-[#111b27] dark:to-[#1a2436]">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-playfair mb-8 text-gray-900 dark:text-white max-w-4xl mx-auto">
           {t('timeline.title')}
@@ -184,7 +184,7 @@ const Index = () => {
     </section>
 
     {/* Pricing Section */}
-    <section role="region" id="license" aria-labelledby="pricing-heading" className="py-16 px-4 md:px-12 lg:px-12 xl:px-24 bg-white/50 dark:bg-[#1A1F2C]">
+    <section role="region" id="license" aria-labelledby="pricing-heading" className="pt-8 pb-16 px-4 md:px-12 lg:px-12 xl:px-24 bg-white/50 dark:bg-[#1A1F2C]">
       <div className="text-center pb-10">
         <h2 id="pricing-heading" className="text-3xl font-bold text-gray-900 dark:text-white mb-4">{t('pricing.title')}</h2>
         <hr className="border border-[#624BFF] w-60 mx-auto mb-4" />
