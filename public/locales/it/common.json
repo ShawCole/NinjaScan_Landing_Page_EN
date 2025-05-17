@@ -1,0 +1,173 @@
+{
+    "meta": {
+        "title": "NinjaScan – Soluzione di conformità EAA",
+        "description": "Assicurati che il tuo sito web sia conforme alla legge europea sull'accessibilità"
+    },
+    "banner": {
+        "warning": "🚨 La maggior parte dei siti web non è conforme alla nuova legge UE"
+    },
+    "hero": {
+        "title": "Potresti essere multato fino a €100.000 se non sei conforme",
+        "subtitle": "In [COUNTRY], le aziende con più di [EMPLOYEE_THRESHOLD] dipendenti e un fatturato annuo superiore a [€TURNOVER] sono soggette a queste sanzioni secondo la legge europea sull'accessibilità.",
+        "cta": "🔎 Verifica il tuo sito gratuitamente ora",
+        "disclaimer": "Nessun pagamento richiesto per verificare la conformità",
+        "countdown": {
+            "title": "Tempo rimanente alla scadenza:",
+            "units": {
+                "days": "Giorni",
+                "hours": "Ore",
+                "minutes": "Minuti",
+                "seconds": "Secondi"
+            }
+        }
+    },
+    "consequences": {
+        "title": "Il costo dell'inazione",
+        "cards": {
+            "fines": {
+                "title": "Multe sostanziali",
+                "description": "La non conformità può comportare multe fino a €100.000 per violazione"
+            },
+            "shutdown": {
+                "title": "Chiusura del sito web",
+                "description": "Le autorità possono ordinare la chiusura del tuo sito fino al raggiungimento della conformità"
+            },
+            "revenue": {
+                "title": "Perdita di ricavi",
+                "description": "Prodotti o servizi non conformi possono essere esclusi dal mercato"
+            },
+            "legal": {
+                "title": "Costi legali",
+                "description": "Difendersi dalle azioni normative è costoso e richiede tempo"
+            }
+        }
+    },
+    "urgency": {
+        "title": "Solo {{days}} giorni alla scadenza del {{deadline}}",
+        "description": "La maggior parte delle aziende non sarà pronta. Oltre il 95% dei siti web attualmente non supera l'audit EAA — non aspettare di essere nel mirino.",
+        "cta": "🚨 Evita i rischi ora"
+    },
+    "solution": {
+        "title": "Scopri Eco Web Ninja: conformità totale, semplice e conveniente",
+        "features": {
+            "audit": {
+                "title": "Audit completo EAA e WCAG 2.1 AA",
+                "description": "Controlla il tuo sito rispetto a tutte le linee guida principali."
+            },
+            "fixes": {
+                "title": "Correzioni automatiche istantanee",
+                "description": "Risolve la maggior parte dei problemi di conformità in pochi minuti — nessuna competenza tecnica richiesta."
+            },
+            "guidance": {
+                "title": "Istruzioni chiare e semplici",
+                "description": "Per tutto ciò che richiede intervento manuale, riceverai istruzioni passo passo in linguaggio semplice."
+            },
+            "affordable": {
+                "title": "Conveniente",
+                "description": "A partire da soli €39/mese — molto meno di un consulente o di una causa legale."
+            },
+            "roi": {
+                "title": "Si ripaga da solo",
+                "description": "NinjaScan si ripaga anche grazie alla riduzione dei costi energetici e al miglioramento del SEO."
+            },
+            "free": {
+                "title": "Scansione gratuita",
+                "description": "NinjaScan fornisce un report di accessibilità obbligatorio da pubblicare sul tuo sito web GRATUITAMENTE. Include anche un widget di accessibilità complementare."
+            }
+        },
+        "cta": "🔎 Scansiona il mio sito gratuitamente"
+    },
+    "timeline": {
+        "title": "NinjaScan riduce drasticamente i tempi di conformità, risparmiando tempo e denaro mentre ti protegge da sanzioni significative",
+        "subtitle": "Senza NinjaScan, perdi tempo e rischi sanzioni",
+        "steps": {
+            "audit": {
+                "title": "Audit",
+                "description": "2-3 mesi di revisione completa"
+            },
+            "remediation": {
+                "title": "Correzione",
+                "description": "4-6 mesi di modifiche tecniche"
+            },
+            "testing": {
+                "title": "Test",
+                "description": "2-3 mesi di implementazione"
+            },
+            "documentation": {
+                "title": "Documentazione",
+                "description": "1-2 mesi di sviluppo delle policy"
+            }
+        },
+        "conclusion": "Inizia oggi per evitare la fretta e i costi extra delle correzioni dell'ultimo minuto!"
+    },
+    "pricing": {
+        "title": "Prezzi trasparenti. Nessuna sorpresa.",
+        "subtitle": "Prezzi semplici per tutti",
+        "toggle": {
+            "yearly": "Annuale",
+            "monthly": "Mensile",
+            "discount": "-15%"
+        },
+        "period": {
+            "month": "/mese",
+            "year": "/anno"
+        },
+        "plans": {
+            "pro": {
+                "name": "Pro",
+                "description": "Conformità base per piccole imprese",
+                "limit": "Fino a 75.000 visite/mese",
+                "cta": "Acquista ora"
+            },
+            "proPlus": {
+                "tag": "Più popolare",
+                "name": "Pro Plus",
+                "description": "Conformità avanzata per medie imprese",
+                "limit": "Fino a 150.000 visite/mese",
+                "cta": "Acquista ora"
+            },
+            "ultimate": {
+                "name": "Ultimate",
+                "description": "Conformità completa per grandi organizzazioni",
+                "limit": "Fino a 500.000 visite/mese",
+                "cta": "Acquista ora"
+            },
+            "enterprise": {
+                "name": "Enterprise",
+                "description": "Soluzione personalizzata per alto traffico",
+                "price": "Personalizzato",
+                "limit": "Oltre 500.000 visite/mese",
+                "cta": "Contatta vendite"
+            }
+        },
+        "features": {
+            "report": "✓ Report tecnico dettagliato sull'accessibilità",
+            "widget": "✓ Widget di accessibilità integrabile",
+            "generator": "✓ Generatore di dichiarazioni di accessibilità",
+            "compliance": "✓ Conformità totale con tutti gli standard legali di accessibilità",
+            "eco": "✓ Eco Scanner riduce la tua impronta di carbonio"
+        }
+    },
+    "faq": {
+        "title": "Domande frequenti",
+        "questions": {
+            "ignore": {
+                "question": "D: Cosa succede se lo ignoro?",
+                "answer": "R: Rischi multe importanti, problemi legali e la chiusura del tuo sito web."
+            },
+            "howItWorks": {
+                "question": "D: Come funziona Eco Web Ninja?",
+                "answer": "R: Scansiona, corregge e ti guida attraverso ogni passaggio, gestendo automaticamente la maggior parte del processo."
+            },
+            "compliance": {
+                "question": "D: Come faccio a sapere se sono conforme?",
+                "answer": "R: Esegui una scansione gratuita — ottieni un report di conformità chiaro e istantaneo e vedi il tuo livello di rischio."
+            }
+        }
+    },
+    "closingCta": {
+        "title": "Non aspettare che sia troppo tardi",
+        "description": "Controlla il tuo sito web gratuitamente e diventa conforme prima della scadenza.",
+        "cta": "🔎 Inizia la scansione gratuita"
+    }
+}

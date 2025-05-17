@@ -10,7 +10,10 @@ import { Languages } from 'lucide-react';
 
 const languages = {
     en: { name: 'English', flag: '🇬🇧' },
+    de: { name: 'Deutsch', flag: '🇩🇪' },
     es: { name: 'Español', flag: '🇪🇸' },
+    fr: { name: 'Français', flag: '🇫🇷' },
+    it: { name: 'Italiano', flag: '🇮🇹' }
 };
 
 export function LanguageSwitcher() {

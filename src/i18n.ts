@@ -4,13 +4,25 @@ import HttpBackend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import enTranslations from '../public/locales/en/common.json';
 import esTranslations from '../public/locales/es/common.json';
+import deTranslations from '../public/locales/de/common.json';
+import frTranslations from '../public/locales/fr/common.json';
+import itTranslations from '../public/locales/it/common.json';
 
 const resources = {
     en: {
         common: enTranslations
     },
+    de: {
+        common: deTranslations
+    },
     es: {
         common: esTranslations
+    },
+    fr: {
+        common: frTranslations
+    },
+    it: {
+        common: itTranslations
     }
 };
 
@@ -21,7 +33,7 @@ i18n
     .init({
         resources,
         fallbackLng: 'en',
-        supportedLngs: ['en', 'es'],
+        supportedLngs: ['en', 'de', 'es', 'fr', 'it'],
 
         interpolation: {
             escapeValue: false,

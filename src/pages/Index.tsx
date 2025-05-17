@@ -7,13 +7,21 @@ import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { PricingToggle } from "@/components/PricingToggle";
 import { calculateTimeUntilDeadline, DEADLINE_DATE } from "@/utils/dateUtils";
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { getPrice } from "@/constants/pricing";
 
 const Index = () => {
   const timeUntilDeadline = calculateTimeUntilDeadline();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [isYearly, setIsYearly] = useState(true);
+  const isGerman = i18n.language === 'de';
+
+  // Force yearly pricing for German language
+  useEffect(() => {
+    if (isGerman) {
+      setIsYearly(true);
+    }
+  }, [isGerman]);
 
   const renderPricing = (plan: 'pro' | 'proPlus' | 'ultimate') => {
     const actualPrice = getPrice(plan, isYearly);
@@ -180,7 +188,7 @@ const Index = () => {
       <div className="text-center pb-10">
         <h2 id="pricing-heading" className="text-3xl font-bold text-gray-900 dark:text-white mb-4">{t('pricing.title')}</h2>
         <hr className="border border-[#624BFF] w-60 mx-auto mb-4" />
-        <PricingToggle isYearly={isYearly} onToggle={setIsYearly} />
+        {!isGerman && <PricingToggle isYearly={isYearly} onToggle={setIsYearly} />}
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
@@ -207,7 +215,7 @@ const Index = () => {
 
         {/* Pro Plus */}
         <div className="bg-white dark:bg-[#202935] p-6 rounded-lg shadow-xl border-2 border-[#624BFF] flex flex-col relative">
-          <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-[#624BFF] text-white px-4 py-1 rounded-full text-sm">
+          <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-[#624BFF] text-white px-6 py-1 rounded-full text-sm whitespace-nowrap">
             {t('pricing.plans.proPlus.tag')}
           </div>
           <div className="flex flex-col items-center text-center flex-grow">
