@@ -12,7 +12,13 @@
         "cta": "🔎 Revise su sitio web gratis ahora",
         "disclaimer": "No se requiere pago para comprobar su cumplimiento",
         "countdown": {
-            "title": "Tiempo restante hasta la fecha límite:"
+            "title": "Tiempo restante hasta la fecha límite:",
+            "units": {
+                "days": "Días",
+                "hours": "Horas",
+                "minutes": "Minutos",
+                "seconds": "Segundos"
+            }
         }
     },
     "consequences": {
@@ -37,7 +43,7 @@
         }
     },
     "urgency": {
-        "title": "Solo quedan {days} días hasta la fecha límite del {deadline}",
+        "title": "Solo quedan {{days}} días hasta la fecha límite del {{deadline}}",
         "description": "La mayoría de las empresas no estarán listas. Más del 95% de los sitios web actualmente fallan la auditoría EAA—no se arriesgue a esperar hasta estar en la mira.",
         "cta": "🚨 Evite riesgos ahora"
     },
@@ -116,6 +122,22 @@
                 "period": "/ año",
                 "limit": "Hasta 150,000 visitas / mes",
                 "cta": "Comprar ahora"
+            },
+            "ultimate": {
+                "name": "Ultimate",
+                "description": "Cumplimiento total para grandes organizaciones",
+                "originalPrice": "€3,599",
+                "price": "€1,990",
+                "period": "/ año",
+                "limit": "Hasta 500,000 visitas / mes",
+                "cta": "Comprar ahora"
+            },
+            "enterprise": {
+                "name": "Enterprise",
+                "description": "Solución personalizada para alto tráfico",
+                "price": "Precio Personalizado",
+                "limit": "Más de 500,000 visitas / mes",
+                "cta": "Contactar Ventas"
             }
         },
         "features": {
@@ -125,5 +147,27 @@
             "compliance": "✓ Cumplimiento total con todas las normas legales de accesibilidad",
             "eco": "✓ Eco Scanner reduce su huella de carbono"
         }
+    },
+    "faq": {
+        "title": "Preguntas Frecuentes",
+        "questions": {
+            "ignore": {
+                "question": "P: ¿Qué pasa si ignoro esto?",
+                "answer": "R: Se arriesga a multas importantes, problemas legales y que su sitio web sea desconectado."
+            },
+            "howItWorks": {
+                "question": "P: ¿Cómo funciona Eco Web Ninja?",
+                "answer": "R: Escaneamos, corregimos y le guiamos en cada paso, manejando automáticamente la mayoría del proceso."
+            },
+            "compliance": {
+                "question": "P: ¿Cómo sé si cumplo con la normativa?",
+                "answer": "R: Ejecute un escaneo gratuito—obtenga un informe de cumplimiento claro e instantáneo, y vea su nivel de riesgo."
+            }
+        }
+    },
+    "closingCta": {
+        "title": "No Espere Hasta Que Sea Demasiado Tarde",
+        "description": "Revise Su Sitio Web Gratis y Cumpla con la Normativa Antes de la Fecha Límite.",
+        "cta": "🔎 Comenzar Escaneo Gratuito"
     }
 }
