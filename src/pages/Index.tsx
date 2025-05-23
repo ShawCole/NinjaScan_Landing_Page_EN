@@ -16,13 +16,6 @@ const Index = () => {
   const [isYearly, setIsYearly] = useState(true);
   const isGerman = i18n.language === 'de';
 
-  // Force yearly pricing for German language
-  useEffect(() => {
-    if (isGerman) {
-      setIsYearly(true);
-    }
-  }, [isGerman]);
-
   const renderPricing = (plan: 'pro' | 'proPlus' | 'ultimate') => {
     const actualPrice = getPrice(plan, isYearly);
     const mockPrice = getPrice(plan, isYearly, true);
@@ -171,9 +164,7 @@ const Index = () => {
               <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
                 {step.title}
               </h3>
-              <p className="text-gray-700 dark:text-gray-400/80">
-                {step.description}
-              </p>
+              <p className="text-gray-700 dark:text-gray-300">Starting at just €49/month—much less than hiring a consultant or defending against a lawsuit.</p>
             </div>
           ))}
         </div>
@@ -188,7 +179,7 @@ const Index = () => {
       <div className="text-center pb-10">
         <h2 id="pricing-heading" className="text-3xl font-bold text-gray-900 dark:text-white mb-4">{t('pricing.title')}</h2>
         <hr className="border border-[#624BFF] w-60 mx-auto mb-4" />
-        {!isGerman && <PricingToggle isYearly={isYearly} onToggle={setIsYearly} />}
+        <PricingToggle isYearly={isYearly} onToggle={setIsYearly} />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
