@@ -186,9 +186,12 @@ const Index = () => {
         {/* Pro */}
         <div className="bg-white dark:bg-[#202935] p-6 rounded-lg shadow-xl border border-gray-200 dark:border-gray-700 flex flex-col hover:border-[#624BFF]">
           <div className="flex flex-col items-center text-center flex-grow">
-            <i className="fa-solid fa-rocket text-3xl text-[#624BFF] mb-4"></i>
-            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{t('pricing.plans.pro.name')}</h3>
-            <p className="text-gray-600 dark:text-gray-400 mb-6">{t('pricing.plans.pro.description')}</p>
+            {/* Top content wrapper for alignment */}
+            <div className="flex flex-col items-center justify-end min-h-[120px] w-full">
+              <i className="fa-solid fa-rocket text-3xl text-[#624BFF] mb-4"></i>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{t('pricing.plans.pro.name')}</h3>
+              <p className="text-gray-600 dark:text-gray-400 mb-6">{t('pricing.plans.pro.description')}</p>
+            </div>
             {renderPricing('pro')}
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">{t('pricing.plans.pro.limit')}</p>
           </div>
@@ -210,9 +213,12 @@ const Index = () => {
             {t('pricing.plans.proPlus.tag')}
           </div>
           <div className="flex flex-col items-center text-center flex-grow">
-            <i className="fa-solid fa-shuttle-space text-3xl text-[#624BFF] mb-4"></i>
-            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{t('pricing.plans.proPlus.name')}</h3>
-            <p className="text-gray-600 dark:text-gray-400 mb-6">{t('pricing.plans.proPlus.description')}</p>
+            {/* Top content wrapper for alignment */}
+            <div className="flex flex-col items-center justify-end min-h-[120px] w-full">
+              <i className="fa-solid fa-shuttle-space text-3xl text-[#624BFF] mb-4"></i>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{t('pricing.plans.proPlus.name')}</h3>
+              <p className="text-gray-600 dark:text-gray-400 mb-6">{t('pricing.plans.proPlus.description')}</p>
+            </div>
             {renderPricing('proPlus')}
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">{t('pricing.plans.proPlus.limit')}</p>
           </div>
@@ -231,9 +237,12 @@ const Index = () => {
         {/* Ultimate */}
         <div className="bg-white dark:bg-[#202935] p-6 rounded-lg shadow-xl border border-gray-200 dark:border-gray-700 flex flex-col hover:border-[#624BFF]">
           <div className="flex flex-col items-center text-center flex-grow">
-            <i className="fa-solid fa-shuttle-space text-3xl text-[#624BFF] mb-4"></i>
-            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{t('pricing.plans.ultimate.name')}</h3>
-            <p className="text-gray-600 dark:text-gray-400 mb-6">{t('pricing.plans.ultimate.description')}</p>
+            {/* Top content wrapper for alignment */}
+            <div className="flex flex-col items-center justify-end min-h-[120px] w-full">
+              <i className="fa-solid fa-shuttle-space text-3xl text-[#624BFF] mb-4"></i>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{t('pricing.plans.ultimate.name')}</h3>
+              <p className="text-gray-600 dark:text-gray-400 mb-6">{t('pricing.plans.ultimate.description')}</p>
+            </div>
             {renderPricing('ultimate')}
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">{t('pricing.plans.ultimate.limit')}</p>
           </div>
@@ -252,9 +261,12 @@ const Index = () => {
         {/* Enterprise */}
         <div className="bg-white dark:bg-[#202935] p-6 rounded-lg shadow-xl border border-gray-200 dark:border-gray-700 flex flex-col hover:border-[#624BFF]">
           <div className="flex flex-col items-center text-center flex-grow">
-            <i className="fa-solid fa-satellite-dish text-3xl text-[#624BFF] mb-4"></i>
-            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{t('pricing.plans.enterprise.name')}</h3>
-            <p className="text-gray-600 dark:text-gray-400 mb-6">{t('pricing.plans.enterprise.description')}</p>
+            {/* Top content wrapper for alignment */}
+            <div className="flex flex-col items-center justify-end min-h-[120px] w-full">
+              <i className="fa-solid fa-satellite-dish text-3xl text-[#624BFF] mb-4"></i>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{t('pricing.plans.enterprise.name')}</h3>
+              <p className="text-gray-600 dark:text-gray-400 mb-6">{t('pricing.plans.enterprise.description')}</p>
+            </div>
             <div className="mt-8">
               <p className="text-2xl font-bold text-[#624BFF]">{t('pricing.plans.enterprise.price')}</p>
               <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">{t('pricing.plans.enterprise.limit')}</p>
